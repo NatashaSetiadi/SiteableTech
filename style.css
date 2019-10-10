@@ -19,10 +19,24 @@ html, body {
       overflow: hidden;
 }
 
-video {
+.video-container2 {
+      position: absolute;
+      width: 100%;
+      height: 50vh;
+      overflow: hidden;
+}
+.video {
       object-fit: cover;
       width: 100vw;
       height: 100vh;
+      position: absolute;
+      top: 0;
+      left: 0;
+}
+.video2 {
+      object-fit: cover;
+      width: 100vw;
+      height: 50vh;
       position: absolute;
       top: 0;
       left: 0;
@@ -38,7 +52,16 @@ video {
       background: #1b1b1b;
       opacity: 0.8;
 }
-
+.video-container2::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 50vh;
+      /* background: #1b1b1b; */
+      opacity: 0.8;
+}
 .header {
       position: absolute;
       top: 50%;
@@ -51,8 +74,6 @@ video {
       color:white;
       font-size: 80px !important;
 }
-
-
 .header h6 {
       /* color: #d3ae87; */
       color:white;
@@ -60,12 +81,41 @@ video {
 }
 
 
+.header2 {
+      position: absolute;
+      padding:100px;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+}
+
+.header2 h1 {
+      /* color: #d3ae87; */
+      color:white;
+      /* font-size: 80px !important; */
+}
+
+
+.header2 h6 {
+      /* color: #d3ae87; */
+      color:white;
+      /* font-size: 30px !important; */
+}
+
 @media(max-width: 900px) {
       .header {
             left: 50%;
       }
 
       .header h1 {
+            font-size: 34px !important;
+            text-align: center;
+      }
+      .header2 {
+            left: 50%;
+      }
+
+      .header2 h1 {
             font-size: 34px !important;
             text-align: center;
       }
@@ -257,6 +307,11 @@ video {
       width: 100%;
 }
 
+.content2 {
+      position: absolute;
+      margin-top: 50vh;
+      width: 100%;
+}
 section {
       padding: 140px 0;
 }
@@ -296,8 +351,17 @@ button {
       font-size: 12px !important;
       letter-spacing: 2px;
       padding: 18px 36px;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      transition: all 0.3s;
 }
 
+button:hover {
+      background: rgb(48, 48, 48);
+      color: #ffffff;
+    }
+    
+    
 /*--------------- services section starts  --------------- */
 
 .services {
@@ -517,3 +581,10 @@ textarea:focus {
             width: 92% !important;
       }
 }
+
+.pageHeads{padding-top:10rem;
+      background:linear-gradient(to bottom,rgba(22,22,22,.1) 0,rgba(22,22,22,.5) 75%,#161616 100%),url(futuristicdisplay.gif);
+      background:linear-gradient(to bottom,#161616 0,rgba(22,22,22,.9) 75%,rgba(22,22,22,.8) 100%);
+background-repeat: no-repeat;}
+
+.pageHeads p{margin-bottom:5rem}
