@@ -328,7 +328,7 @@ button {
 
 .team-img {
       background: grey;
-      height: 340px;
+      height: 500px;
 }
 
 .members {
@@ -352,12 +352,12 @@ button {
 }
 
 .team-one {
-      background: url(team-one.jpg) no-repeat 50% 50%;
+      background: url(img/0.jpg) no-repeat 50% 50%;
       background-size: cover;
 }
 
 .team-two {
-      background: url(team-two.jpg) no-repeat 50% 50%;
+      background: url(img/1.jpg) no-repeat 50% 50%;
       background-size: cover;
 }
 
