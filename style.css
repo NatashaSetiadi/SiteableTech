@@ -329,7 +329,6 @@ section {
       letter-spacing: 4px;
       font-size: 18px;
 }
-
 .section-subheading {
       color: grey;
       margin: 10px 0;
@@ -632,3 +631,30 @@ margin-top:50px;
       top: -20px;
       font-size: 26px;
   }
+.portfolioSection{
+      background:#eeeeee;
+}
+.portfolioBox{
+      width:20vw;
+      height:500px;
+      margin-top:100px;
+
+}
+.trackBox{
+      background:url(img/rsz_track\ \(1\).png) no-repeat 50% 50%;
+      background-repeat: no-repeat;
+      height:50vh;
+      width:100%;
+}
+.artBox{
+      background:url(img/rsz_art.png) no-repeat 50% 50%;
+      background-repeat: no-repeat;
+      height:50vh;
+      width:100%;
+}
+.globalBox{
+      background:url(img/rsz_global.png) no-repeat 50% 50%;
+      background-repeat: no-repeat;
+      height:50vh;
+      width:100%;
+}
