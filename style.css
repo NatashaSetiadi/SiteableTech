@@ -120,6 +120,17 @@ html, body {
             text-align: center;
       }
 }
+@media(min-width: 901px){
+      .header {
+            left: 50%;
+      }
+
+      .header h1 {
+            font-size: 74px !important;
+            text-align: center;
+      }
+     
+}
 
 /*--------------- navigation --------------- */
 
